@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Document</title>
+  </head>
+  <body>
+    <!-- Form add student -->
+    <form method="POST" class="add_student">
+      <h2 class="title">Add Student</h2>
+
+      <div class="row">
+        <label for="name">Name:</label>
+        <input type="text" name="name" id="name" class="input_value" />
+      </div>
+
+      <div class="row">
+        <label for="age">Age:</label>
+        <input type="number" name="age" id="age" class="input_value" />
+      </div>
+
+      <div class="row">
+        <label for="sex">Sex:</label>
+        <select name="sex" id="sex" class="input_value">
+          <option value="male">Male</option>
+          <option value="female">FeMale</option>
+        </select>
+      </div>
+
+      <div class="row">
+        <label for="avatar">Avatar:</label>
+        <input type="file" name="avatar" id="avatar" class="input_value" />
+      </div>
+
+      <div class="row">
+        <label for="description">Description:</label>
+        <textarea
+          name="description"
+          id="description"
+          cols="30"
+          rows="3"
+          class="input_value"
+        ></textarea>
+      </div>
+
+      <div class="row">
+        <input class="btn" type="reset" value="Reset" />
+        <input class="btn" type="submit" value="Submit" />
+      </div>
+    </form>
+
+    <!-- Table Students -->
+    <table class="table_students">
+      <tr>
+        <th>Name</th>
+        <th>Age</th>
+        <th>Sex</th>
+        <th>Description</th>
+      </tr>
+      <tr>
+        <td>Trinh Duc Khanh</td>
+        <td>23</td>
+        <td>Male</td>
+        <td>Fresher Frontend</td>
+      </tr>
+      <tr>
+        <td>Trinh Duc Khanh</td>
+        <td>23</td>
+        <td>Male</td>
+        <td>Fresher Frontend</td>
+      </tr>
+      <tr>
+        <td>Trinh Duc Khanh</td>
+        <td>23</td>
+        <td>Male</td>
+        <td>Fresher Frontend</td>
+      </tr>
+    </table>
+
+    <!-- Card Student -->
+    <div class="card_student">
+      <img class="card__avt" src="/session_1/avt.jpeg" alt="avatar" />
+      <div class="card__info">
+        <p class="card__name">Name: Trinh Duc Khanh</p>
+        <p class="card__age">Age: 23 years old</p>
+        <p class="card__sex">Sex: Male</p>
+        <p class="card__phone">Phone Number: 0379985561</p>
+        <p class="card__address">Address: Ha Noi</p>
+      </div>
+    </div>
+  </body>
+</html>

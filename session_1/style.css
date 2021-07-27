@@ -1,0 +1,85 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: arial, sans-serif;
+}
+
+html {
+  padding: 50px;
+}
+
+/* Form student */
+.add_student {
+  width: 400px;
+  padding: 0px 25px 30px 25px;
+  border: 1px solid black;
+  position: relative;
+}
+
+.title {
+  text-align: center;
+  margin: 30px 0px;
+}
+
+.row {
+  display: block;
+  margin-top: 10px;
+}
+
+.input_value {
+  left: 120px;
+  position: absolute;
+}
+
+.btn {
+  margin-top: 45px;
+  padding: 5px 10px;
+}
+
+.btn + .btn {
+  margin-left: 15px;
+}
+
+/* Table Students */
+.table_students {
+  margin-top: 40px;
+  border-collapse: collapse;
+  width: 600px;
+}
+
+td,
+th {
+  border: 1px solid #dddddd;
+  text-align: left;
+  padding: 8px;
+}
+
+tr:nth-child(even) {
+  background-color: #dddddd;
+}
+
+/* Card Student */
+.card_student {
+  margin-top: 50px;
+  width: 370px;
+  height: 200px;
+  background: #dddddd;
+  padding: 35px 20px;
+  border-radius: 5px;
+  position: relative;
+}
+
+.card__avt {
+  width: 100px;
+}
+
+.card__info {
+  display: inline-flex;
+  margin-left: 15px;
+  height: 129px;
+  position: absolute;
+  margin-top: 0;
+  flex-direction: column;
+  justify-content: space-around;
+}
