@@ -1,0 +1,493 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="styles.css" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
+      crossorigin="anonymous"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"
+    />
+    <title>Github</title>
+  </head>
+  <body>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="#">
+          <img
+            class="nav-logo"
+            src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQN0Uu0auB-_30X62d-vUYM-jhN4TkqPqgv6A&usqp=CAU"
+            alt="logo"
+          />
+        </a>
+
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <form>
+            <input
+              class="form-control"
+              type="search"
+              placeholder="Search or jump to..."
+              aria-label="Search"
+            />
+          </form>
+
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a class="nav-link" href="#">Pull requests</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Issues</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Marketplace</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Exlore</a>
+            </li>
+          </ul>
+
+          <ul class="navbar-nav justify-content-end">
+            <li class="nav-item">
+              <a class="nav-link" href="#">
+                <i class="far fa-bell"></i>
+              </a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">
+                <i class="fas fa-plus"></i>
+              </a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">
+                <img
+                  class="nav-user"
+                  src="https://getbootstrap.com/docs/5.0/assets/brand/bootstrap-social-logo.png"
+                  alt="user"
+                />
+              </a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    <header>
+      <div class="head d-flex">
+        <div class="head-avatar">
+          <img
+            src="https://avatars.githubusercontent.com/u/8489345?s=200&v=4"
+            alt="avt"
+          />
+        </div>
+
+        <div class="head-right">
+          <h4>Rikkeisoft Corporation</h4>
+          <span class="head-sub">
+            <i class="fas fa-map-marker-alt"></i>
+            Hanoi, Vietnam
+          </span>
+          <span class="head-sub">
+            <i class="fas fa-link"></i>
+            http://rikkeisoft.com/
+          </span>
+        </div>
+      </div>
+
+      <div class="d-flex tab">
+        <div class="tab-item">
+          <a>
+            <i class="tab-icon fas fa-box-open"></i>
+            Repositories
+          </a>
+        </div>
+        <div class="tab-item">
+          <a>
+            <i class="tab-icon fab fa-dropbox"></i>
+            Packages
+          </a>
+        </div>
+        <div class="tab-item">
+          <a>
+            <i class="tab-icon far fa-user"></i>
+            People
+          </a>
+        </div>
+        <div class="tab-item">
+          <a>
+            <i class="tab-icon fas fa-tasks"></i>
+            Projects
+          </a>
+        </div>
+      </div>
+    </header>
+
+    <div class="main">
+      <h6>Pinned repositories</h6>
+
+      <div class="repo-top d-flex">
+        <div class="repo-top__box d-flex">
+          <div class="repo-top__name">
+            <i class="tab-icon fas fa-box-open"></i>
+            <a href="">docker-for-php</a>
+          </div>
+          <div class="repo-top__sub">
+            A stack for PHP application <br />
+            development/deployment with Docker
+          </div>
+          <div class="repo-top__other">
+            <span>
+              <i class="fas fa-circle"></i>
+              Shell
+            </span>
+            <span>
+              <i class="far fa-star"></i>
+              3
+            </span>
+            <span>
+              <i class="fas fa-code-branch"></i>
+              1
+            </span>
+          </div>
+        </div>
+
+        <div class="repo-top__box d-flex">
+          <div class="repo-top__name">
+            <i class="tab-icon fas fa-box-open"></i>
+            <a href="">git-training</a>
+          </div>
+          <div class="repo-top__sub">[Rikkeisoft] Git Training</div>
+          <div class="repo-top__other">
+            <span>
+              <i class="fas fa-circle"></i>
+              Shell
+            </span>
+            <span>
+              <i class="far fa-star"></i>
+              3
+            </span>
+            <span>
+              <i class="fas fa-code-branch"></i>
+              1
+            </span>
+          </div>
+        </div>
+
+        <div class="repo-top__box d-flex">
+          <div class="repo-top__name">
+            <i class="tab-icon fas fa-box-open"></i>
+            <a href="">php-training</a>
+          </div>
+          <div class="repo-top__sub">Project training for PHP dev</div>
+          <div class="repo-top__other">
+            <span>
+              <i class="fas fa-circle"></i>
+              Shell
+            </span>
+            <span>
+              <i class="far fa-star"></i>
+              3
+            </span>
+            <span>
+              <i class="fas fa-code-branch"></i>
+              1
+            </span>
+          </div>
+        </div>
+      </div>
+
+      <div class="search d-flex">
+        <div class="search-box">
+          <input
+            class="form-control me-2"
+            type="search"
+            placeholder="Find a repository..."
+            aria-label="Search"
+          />
+          <i class="fas fa-search"></i>
+        </div>
+
+        <button type="button" class="btn btn-light search-btn">
+          Type
+          <i class="fas fa-sort-down"></i>
+        </button>
+        <button type="button" class="btn btn-light search-btn">
+          Language
+          <i class="fas fa-sort-down"></i>
+        </button>
+        <button type="button" class="btn btn-light search-btn">
+          Sort
+          <i class="fas fa-sort-down"></i>
+        </button>
+      </div>
+
+      <div class="content d-flex">
+        <div class="col-left">
+          <div class="repo-item d-flex">
+            <div class="repo-item__name">
+              <a href="">redactor-rails</a>
+            </div>
+            <div class="repo-item__sub">
+              Monkey-patched Redactor Editor for Ruby on Rails for internal
+              using.
+            </div>
+            <div class="repo-item__other">
+              <span>
+                <i class="fas fa-circle"></i>
+                Shell
+              </span>
+              <span>
+                <i class="fas fa-balance-scale"></i>
+                MIT
+              </span>
+              <span>
+                <i class="far fa-star"></i>
+                3
+              </span>
+              <span>
+                <i class="far fa-dot-circle"></i>
+                0
+              </span>
+              <span>
+                <i class="fas fa-code-branch"></i>
+                1
+              </span>
+              <span>Updated on 3 Jun</span>
+            </div>
+          </div>
+
+          <div class="repo-item d-flex">
+            <div class="repo-item__name">
+              <a href="">covid19-map</a>
+            </div>
+            <div class="repo-item__sub">Covid-19 Maps</div>
+            <div class="repo-item__other">
+              <span>
+                <i class="fas fa-circle"></i>
+                TypeScript
+              </span>
+              <span>
+                <i class="fas fa-balance-scale"></i>
+                MIT
+              </span>
+              <span>
+                <i class="far fa-star"></i>
+                3
+              </span>
+              <span>
+                <i class="far fa-dot-circle"></i>
+                0
+              </span>
+              <span>
+                <i class="fas fa-code-branch"></i>
+                1
+              </span>
+              <span>Updated on 3 Jun</span>
+            </div>
+          </div>
+
+          <div class="repo-item d-flex">
+            <div class="repo-item__name">
+              <a href="">carrierwave-azure_rm</a>
+            </div>
+            <div class="repo-item__sub">
+              Forked from krismichalski/carrierwave-azure_rm <br />
+              Allows file upload to Azure with the new official sdk
+            </div>
+            <div class="repo-item__other">
+              <span>
+                <i class="fas fa-circle"></i>
+                Ruby
+              </span>
+              <span>
+                <i class="fas fa-balance-scale"></i>
+                MIT
+              </span>
+              <span>
+                <i class="far fa-star"></i>
+                3
+              </span>
+              <span>
+                <i class="far fa-dot-circle"></i>
+                0
+              </span>
+              <span>
+                <i class="fas fa-code-branch"></i>
+                1
+              </span>
+              <span>Updated on 3 Jun</span>
+            </div>
+          </div>
+
+          <div class="repo-item d-flex">
+            <div class="repo-item__name">
+              <a href="">react-calendar-timeline</a>
+            </div>
+            <div class="repo-item__sub">
+              Forked from namespace-ee/react-calendar-timeline <br />
+              A modern and responsive react timeline component.
+            </div>
+            <div class="repo-item__other">
+              <span>
+                <i class="fas fa-circle"></i>
+                JavaScript
+              </span>
+              <span>
+                <i class="fas fa-balance-scale"></i>
+                MIT
+              </span>
+              <span>
+                <i class="far fa-star"></i>
+                3
+              </span>
+              <span>
+                <i class="far fa-dot-circle"></i>
+                0
+              </span>
+              <span>
+                <i class="fas fa-code-branch"></i>
+                1
+              </span>
+              <span>Updated on 13 Oct, 2020</span>
+            </div>
+          </div>
+
+          <div class="repo-item d-flex">
+            <div class="repo-item__name">
+              <a href="">blazer</a>
+            </div>
+            <div class="repo-item__sub">
+              Forked from chienkira/blazer <br />
+              Business intelligence made simple
+            </div>
+            <div class="repo-item__other">
+              <span>
+                <i class="fas fa-circle"></i>
+                JavaScript
+              </span>
+              <span>
+                <i class="fas fa-balance-scale"></i>
+                MIT
+              </span>
+              <span>
+                <i class="far fa-star"></i>
+                3
+              </span>
+              <span>
+                <i class="far fa-dot-circle"></i>
+                0
+              </span>
+              <span>
+                <i class="fas fa-code-branch"></i>
+                1
+              </span>
+              <span>Updated on 13 Oct, 2020</span>
+            </div>
+          </div>
+
+          <div class="repo-item d-flex">
+            <div class="repo-item__name">
+              <a href="">react-training-phuongdk</a>
+            </div>
+            <div class="repo-item__sub">React Native training</div>
+            <div class="repo-item__other">
+              <span>
+                <i class="fas fa-circle"></i>
+                JavaScript
+              </span>
+              <span>
+                <i class="fas fa-balance-scale"></i>
+                MIT
+              </span>
+              <span>
+                <i class="far fa-star"></i>
+                3
+              </span>
+              <span>
+                <i class="far fa-dot-circle"></i>
+                0
+              </span>
+              <span>
+                <i class="fas fa-code-branch"></i>
+                1
+              </span>
+              <span>Updated on 13 Oct, 2020</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-right">
+          <div class="col-right__item">
+            <p>Top languages</p>
+            <div class="col-right__item-detail">
+              <span>
+                <i class="fas fa-circle"></i>
+                JavaScript
+              </span>
+              <span>
+                <i class="fas fa-circle"></i>
+                Ruby
+              </span>
+              <span>
+                <i class="fas fa-circle"></i>
+                PHP
+              </span>
+              <span>
+                <i class="fas fa-circle"></i>
+                Shell
+              </span>
+              <span>
+                <i class="fas fa-circle"></i>
+                Objective-C
+              </span>
+            </div>
+          </div>
+
+          <div class="col-right__item">
+            <p>Most used topics</p>
+            <div class="col-right__item-detail topics">
+              <span> Rikkeisoft </span>
+              <span> Docker </span>
+              <span> Laravel </span>
+              <span> Nginx </span>
+              <span> React-C </span>
+            </div>
+          </div>
+
+          <div class="col-right__item">
+            <div class="col-right__item-top d-flex">
+              <p>People</p>
+              <i class="fas fa-chevron-right"></i>
+            </div>
+            <span>
+              This organization has no public members. You must be a member to
+              see who’s a part of this organization.
+            </span>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"
+      integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js"
+      integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>

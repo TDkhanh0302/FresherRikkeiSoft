@@ -1,0 +1,198 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.nav-logo {
+  width: 38px;
+}
+
+.nav-user {
+  width: 28px;
+  border-radius: 15px;
+}
+
+header {
+  background: #fafbfc;
+  padding: 40px 269px 0 269px;
+}
+
+.head-avatar img {
+  width: 100px;
+  margin-right: 25px;
+}
+
+.head-right {
+  align-self: center;
+}
+
+.head-sub {
+  font-size: 13px;
+  margin-right: 10px;
+}
+
+.tab {
+  margin-top: 25px;
+}
+
+.tab-item {
+  padding: 13px;
+  font-size: 14px;
+  cursor: pointer;
+}
+
+.tab-item:first-child {
+  font-weight: 500;
+  border-bottom: 2px solid #fa927e;
+}
+
+.tab-item + .tab-item {
+  margin-left: 7px;
+}
+
+.tab-icon {
+  margin-right: 5px;
+}
+
+.main {
+  padding: 20px 269px;
+}
+
+.repo-top {
+  margin-top: 20px;
+  justify-content: space-between;
+}
+
+.repo-top__box {
+  width: 32%;
+  border: 1px solid #eceef1;
+  padding: 15px;
+  border-radius: 7px;
+  font-size: 13px;
+  flex-direction: column;
+}
+
+.repo-top__name a {
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.repo-top__sub {
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.repo-top__other {
+  margin-top: auto;
+}
+
+.repo-top__other span {
+  margin-right: 10px;
+}
+
+.search {
+  margin-top: 40px;
+  border-bottom: 2px solid #eceef1;
+  padding-bottom: 15px;
+  margin-bottom: 15px;
+}
+
+.search-box {
+  position: relative;
+}
+
+.search-box input {
+  padding-left: 32px;
+}
+
+.search-box i {
+  position: absolute;
+  top: 12px;
+  left: 10px;
+}
+
+.search-btn {
+  border: 1px solid #959597 !important;
+  margin-left: 15px;
+}
+
+.search-btn i {
+  margin-left: 5px;
+}
+
+.content {
+  display: flex;
+  justify-content: space-between;
+}
+
+.col-left {
+  width: 65%;
+}
+
+.repo-item {
+  flex-direction: column;
+  margin-top: 40px;
+  border-bottom: 2px solid #eceef1;
+  padding-bottom: 20px;
+}
+
+.repo-item__name a {
+  text-decoration: none;
+  font-weight: bold;
+  font-size: 19px;
+}
+
+.repo-item__sub {
+  margin-top: 8px;
+  margin-bottom: 8px;
+  font-size: 14px;
+}
+
+.repo-top__other {
+  margin-top: auto;
+}
+
+.repo-item__other span {
+  margin-right: 10px;
+  font-size: 13px;
+}
+
+.col-right {
+  width: 33%;
+}
+
+.col-right__item {
+  border: 1px solid #eceef1;
+  padding: 15px;
+  border-radius: 7px;
+  margin-top: 20px;
+}
+
+.col-right__item p {
+  font-weight: bold;
+}
+
+.col-right__item-detail span {
+  font-size: 14px;
+  margin-right: 10px;
+  display: inline-block;
+  margin-bottom: 5px;
+}
+
+.topics span {
+  padding: 3px 6px;
+  background: #f1f8ff;
+  border-radius: 10px;
+  margin-bottom: 8px;
+  color: #3d79d9;
+}
+
+.col-right__item-top {
+  justify-content: space-between;
+}
+
+.col-right__item-top i {
+  margin-top: 10px;
+  font-size: 13px;
+}
